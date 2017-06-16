@@ -1,2 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_bbdd7d32389b00152522099bc8de742191e39029/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="0a6a191673f41e3eeb1311d8d91535e11dc4f3c5">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_67413caa5d645575fa815e9875fde9792f805b0d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_bfc4773e04207e1d8cda1d1e6841870c977b899b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/Documents/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_434461a48eb7832c6a024cf4b7ab5e8298b25584/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_9e185c9f449834181bcc25c8430ddb0485522f46/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="5a198bd568cacb1039b5ecd9e5d15ccfd98d45f8">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3474631c443767961097e77a2037ccf5eefeaf60/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_e2f3e3b5ef108d2ed5106e676daf67b89b3bdd8c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_85ad2acbd1debda6c5f42049d6722db80c929ab6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_e3d5c9a8571ebb7fd3e446d4bb1af8b458ee47d5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_1faec0a4ce6c92d69674b5184f286fcb30e915f1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_6ab7465ca1ee7e949fd51e28d742c07a042de49a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/dugaolong/github/flashlight/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/dugaolong/github/flashlight/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_f6f8a1b28f6fe2715402bef642f95dd823dc47ca/classes.dex" />
+    </item>
+
+</items>

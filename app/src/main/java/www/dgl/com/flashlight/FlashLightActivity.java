@@ -51,7 +51,7 @@ public class FlashLightActivity extends Activity implements View.OnClickListener
     private CaptureRequest request = null;
     private SurfaceTexture surfaceTexture;
     private Surface surface;
-    private boolean isSupportFlashCamera2 = false;
+    private boolean isSupportFlashCamera2 = false;//是否支持闪光灯
     private final CameraCaptureSession.StateCallback stateCallback = new CameraCaptureSession.StateCallback() {
 
         public void onConfigured(CameraCaptureSession arg0) {
@@ -207,6 +207,23 @@ public class FlashLightActivity extends Activity implements View.OnClickListener
     }
 
     /**
+     * createCaptureSession
+     */
+        @SuppressWarnings({ "rawtypes", "unchecked" })
+    private void createCaptureSession(){
+        this.surfaceTexture = new SurfaceTexture(0, false);
+        this.surfaceTexture.setDefaultBufferSize(1280, 720);
+        this.surface = new Surface(this.surfaceTexture);
+        ArrayList localArrayList = new ArrayList(1);
+        localArrayList.add(this.surface);
+        try {
+            this.cameraDevice.createCaptureSession(localArrayList, this.stateCallback, null);
+        } catch (CameraAccessException e) {
+            Log.e(TAG, e.getMessage());
+        }
+    }
+
+    /**
      * 通过设置Camera打开闪光灯
      *
      * @param mCamera
@@ -221,24 +238,6 @@ public class FlashLightActivity extends Activity implements View.OnClickListener
                 parameters.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
                 mCamera.setParameters(parameters);
             }
-        }
-    }
-
-
-    /**
-     * createCaptureSession
-     */
-        @SuppressWarnings({ "rawtypes", "unchecked" })
-    private void createCaptureSession(){
-        this.surfaceTexture = new SurfaceTexture(0, false);
-        this.surfaceTexture.setDefaultBufferSize(1280, 720);
-        this.surface = new Surface(this.surfaceTexture);
-        ArrayList localArrayList = new ArrayList(1);
-        localArrayList.add(this.surface);
-        try {
-            this.cameraDevice.createCaptureSession(localArrayList, this.stateCallback, null);
-        } catch (CameraAccessException e) {
-            Log.e(TAG, e.getMessage());
         }
     }
     /**
